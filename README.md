@@ -1,9 +1,15 @@
-$ ('.order') .click(function(e) 
-{ let button = $(this);
-if(!button.hasclass('animate')) {
-button.addclass('animate');
-setTimeout(() --> {
-button.removeclass('animate');
- } , 1000);
+$('.order').click(function(e) { let button = $(this);
+
+if(!button.hasClass('animate')) {
+
+button.addClass('animate');
+
+setTimeout(() = {
+
+button.removeClass('animate');
+
+}, 10000);
+
 }
-});
+
+}); 
